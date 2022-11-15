@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55E4CF442924081300851CCD /* pruebaSonarqiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4CF432924081300851CCD /* pruebaSonarqiOSApp.swift */; };
+		55E4CF442924081300851CCD /* PruebaSonarqiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4CF432924081300851CCD /* PruebaSonarqiOSApp.swift */; };
 		55E4CF462924081300851CCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4CF452924081300851CCD /* ContentView.swift */; };
 		55E4CF482924081500851CCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E4CF472924081500851CCD /* Assets.xcassets */; };
 		55E4CF4B2924081500851CCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E4CF4A2924081500851CCD /* Preview Assets.xcassets */; };
@@ -35,7 +35,7 @@
 
 /* Begin PBXFileReference section */
 		55E4CF402924081300851CCD /* pruebaSonarqiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pruebaSonarqiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		55E4CF432924081300851CCD /* pruebaSonarqiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pruebaSonarqiOSApp.swift; sourceTree = "<group>"; };
+		55E4CF432924081300851CCD /* PruebaSonarqiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaSonarqiOSApp.swift; sourceTree = "<group>"; };
 		55E4CF452924081300851CCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		55E4CF472924081500851CCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55E4CF4A2924081500851CCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 		55E4CF422924081300851CCD /* pruebaSonarqiOS */ = {
 			isa = PBXGroup;
 			children = (
-				55E4CF432924081300851CCD /* pruebaSonarqiOSApp.swift */,
+				55E4CF432924081300851CCD /* PruebaSonarqiOSApp.swift */,
 				55E4CF452924081300851CCD /* ContentView.swift */,
 				55E4CF472924081500851CCD /* Assets.xcassets */,
 				55E4CF492924081500851CCD /* Preview Content */,
@@ -258,7 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55E4CF462924081300851CCD /* ContentView.swift in Sources */,
-				55E4CF442924081300851CCD /* pruebaSonarqiOSApp.swift in Sources */,
+				55E4CF442924081300851CCD /* PruebaSonarqiOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +420,7 @@
 				DEVELOPMENT_TEAM = 4A3553FC4X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = pruebaSonarqiOS;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +450,7 @@
 				DEVELOPMENT_TEAM = 4A3553FC4X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = pruebaSonarqiOS;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
