@@ -11,9 +11,9 @@
 		55E4CF462924081300851CCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4CF452924081300851CCD /* ContentView.swift */; };
 		55E4CF482924081500851CCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E4CF472924081500851CCD /* Assets.xcassets */; };
 		55E4CF4B2924081500851CCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E4CF4A2924081500851CCD /* Preview Assets.xcassets */; };
-		55E4CF552924081500851CCD /* pruebaSonarqiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4CF542924081500851CCD /* pruebaSonarqiOSTests.swift */; };
-		55E4CF5F2924081500851CCD /* pruebaSonarqiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4CF5E2924081500851CCD /* pruebaSonarqiOSUITests.swift */; };
-		55E4CF612924081500851CCD /* pruebaSonarqiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4CF602924081500851CCD /* pruebaSonarqiOSUITestsLaunchTests.swift */; };
+		55E4CF552924081500851CCD /* PruebaSonarqiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4CF542924081500851CCD /* PruebaSonarqiOSTests.swift */; };
+		55E4CF5F2924081500851CCD /* PruebaSonarqiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4CF5E2924081500851CCD /* PruebaSonarqiOSUITests.swift */; };
+		55E4CF612924081500851CCD /* PruebaSonarqiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4CF602924081500851CCD /* PruebaSonarqiOSUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +40,10 @@
 		55E4CF472924081500851CCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55E4CF4A2924081500851CCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		55E4CF502924081500851CCD /* pruebaSonarqiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pruebaSonarqiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		55E4CF542924081500851CCD /* pruebaSonarqiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pruebaSonarqiOSTests.swift; sourceTree = "<group>"; };
+		55E4CF542924081500851CCD /* PruebaSonarqiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaSonarqiOSTests.swift; sourceTree = "<group>"; };
 		55E4CF5A2924081500851CCD /* pruebaSonarqiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pruebaSonarqiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		55E4CF5E2924081500851CCD /* pruebaSonarqiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pruebaSonarqiOSUITests.swift; sourceTree = "<group>"; };
-		55E4CF602924081500851CCD /* pruebaSonarqiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pruebaSonarqiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		55E4CF5E2924081500851CCD /* PruebaSonarqiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaSonarqiOSUITests.swift; sourceTree = "<group>"; };
+		55E4CF602924081500851CCD /* PruebaSonarqiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaSonarqiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +113,7 @@
 		55E4CF532924081500851CCD /* pruebaSonarqiOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				55E4CF542924081500851CCD /* pruebaSonarqiOSTests.swift */,
+				55E4CF542924081500851CCD /* PruebaSonarqiOSTests.swift */,
 			);
 			path = pruebaSonarqiOSTests;
 			sourceTree = "<group>";
@@ -121,8 +121,8 @@
 		55E4CF5D2924081500851CCD /* pruebaSonarqiOSUITests */ = {
 			isa = PBXGroup;
 			children = (
-				55E4CF5E2924081500851CCD /* pruebaSonarqiOSUITests.swift */,
-				55E4CF602924081500851CCD /* pruebaSonarqiOSUITestsLaunchTests.swift */,
+				55E4CF5E2924081500851CCD /* PruebaSonarqiOSUITests.swift */,
+				55E4CF602924081500851CCD /* PruebaSonarqiOSUITestsLaunchTests.swift */,
 			);
 			path = pruebaSonarqiOSUITests;
 			sourceTree = "<group>";
@@ -266,7 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55E4CF552924081500851CCD /* pruebaSonarqiOSTests.swift in Sources */,
+				55E4CF552924081500851CCD /* PruebaSonarqiOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55E4CF5F2924081500851CCD /* pruebaSonarqiOSUITests.swift in Sources */,
-				55E4CF612924081500851CCD /* pruebaSonarqiOSUITestsLaunchTests.swift in Sources */,
+				55E4CF5F2924081500851CCD /* PruebaSonarqiOSUITests.swift in Sources */,
+				55E4CF612924081500851CCD /* PruebaSonarqiOSUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
